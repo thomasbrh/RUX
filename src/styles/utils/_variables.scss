@@ -1,0 +1,51 @@
+:root {
+    /* Fonts */
+    --font-primary: 'Jost', sans-serif;
+    --font-secondary: 'DM Sans', sans-serif;
+    --size-text: 18px;
+
+    /* Couleurs */
+    /* Mode clair */
+    --color-bg: #fff;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-primary: #333;
+    --color-secondary: #666;
+    --color-tertiary: #999;
+    --color-text: #333;
+    --color-menu: #fff;
+
+    /* Mode sombre */
+    --color-bg-dark: #333;
+    --color-white-dark: #000;
+    --color-black-dark: #fff;
+    --color-primary-dark: #fff;
+    --color-secondary-dark: #666;
+    --color-tertiary-dark: #999;
+    --color-text-dark: #fff;
+}
+
+/* Dark mode */
+.dark-mode {
+    --color-bg: var(--color-bg-dark);
+    --color-white: var(--color-white-dark);
+    --color-black: var(--color-black-dark);
+    --color-primary: var(--color-primary-dark);
+    --color-secondary: var(--color-secondary-dark);
+    --color-tertiary: var(--color-tertiary-dark);
+    --color-text: var(--color-text-dark);
+}
+
+
+@media (min-width: 768px) { /* Tablette (768px et plus) */
+    :root {
+        --size-text: 21px;
+    }
+}
+
+
+@media (min-width: 1280px) { /* Desktop (1280px et plus) */
+    :root {
+        --size-text: 24px;
+    }
+}
